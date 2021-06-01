@@ -1,0 +1,30 @@
+{
+  "name": "one-one",
+  "version": "1.0.0",
+  "description": "<br>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "esline src/",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisveryreal/one-one.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexisveryreal/one-one/issues"
+  },
+  "homepage": "https://github.com/alexisveryreal/one-one#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
