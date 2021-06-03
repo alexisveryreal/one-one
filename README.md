@@ -12,7 +12,7 @@ a Discord bot written with Discord.js
 
 ## Authors
 * **Alexis Villarreal** - [alexisveryreal](https://github.com/alexisveryreal)
-* **Test**
+* **Chelsea P** - [ToothyBoi](https://github.com/ToothyBoi)
 
 
 ## License
