@@ -8,13 +8,10 @@ const commands = {
 };
 
 // get the guild and channel id from our config file
-const {
-  GUILD_ID,
-  BOT_CHANNEL_ID,
-} = require('../config');
+const { GUILD_ID, BOT_CHANNEL_ID } = require('../config');
 
 // only listening to messages sent in our server in our specific channel
-module.exports = async (msg) => {
+module.exports = async msg => {
   if (msg.guild.id === GUILD_ID && msg.channel.id === BOT_CHANNEL_ID) {
     // if our commands will have stuff after the command we split via spaces
     const args = msg.content.split(' ');
