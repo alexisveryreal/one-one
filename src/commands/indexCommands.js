@@ -1,10 +1,12 @@
 const ping = require('./ping');
 const uptime = require('./uptime');
+const eightBall = require('./8ball');
 
 // all of our commands will go here, each will need their require statement like above
 const commands = {
   ping,
   uptime,
+  '8ball': eightBall,
 };
 
 // get the guild and channel id from our config file
